@@ -18,10 +18,8 @@ const answers = await inquirer.prompt([
     },
 ]);
 
-console.log(answers);
-
 if (answers.userGuessedNumber === randomNumber) {
     console.log("Congratualtions! you guessed right number.");
 } else {
-    console.log("you guessed wrong number.");
+    console.log("You guessed wrong number.");
 }

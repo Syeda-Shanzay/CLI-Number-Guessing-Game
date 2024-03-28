@@ -11,7 +11,6 @@ const answers = await inquirer.prompt([
         message: "Please guess a number between 1-10:",
     },
 ]);
-console.log(answers);
 if (answers.userGuessedNumber === randomNumber) {
     console.log("Congratualtions! you guessed right number.");
 }
